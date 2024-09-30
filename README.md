@@ -1,4 +1,3 @@
-README for CalcInterest Project
 Project Overview
 This project, CalcInterest, calculates the interest on home and property loans based on user inputs including loan type, loan amount, and loan duration (in years). The interest rate applied varies depending on the type and amount of the loan.
 
@@ -21,4 +20,4 @@ Unit Test Plan: Documents the test cases used to verify the functionality of the
 GitHub Repository
 The project is hosted on GitHub, where you can find the source code, test cases, and other related files. You can clone the repository and run the project locally.
 
-GitHub Repository Link: https://github.com/your-username/CalcInterestProject
+GitHub Repository Link: https://github.com/ryan475/CS341-Assignment1.git
