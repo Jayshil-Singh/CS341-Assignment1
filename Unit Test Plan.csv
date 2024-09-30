@@ -1,0 +1,26 @@
+Test Case ID,Description,Loan Type,Loan Amount,Loan Duration (Years),Expected Output,Actual Output,Result
+TC_1,Home loan 5 years,1,99999,5,39999.60,,Pending
+TC_2,Home loan 5 years,1,100000,5,32500,,Pending
+TC_3,Home loan 6 years,1,100000,6,39000,,Pending
+TC_4,Home loan 10 years,1,499999,10,324999.35,,Pending
+TC_5,Home loan 11 years,1,500000,11,302500,,Pending
+TC_6,Property loan 5 years,2,99999,5,59999.40,,Pending
+TC_7,Property loan 5 years,2,100000,5,42500,,Pending
+TC_8,Property loan 9 years,2,499999,9,382499.15,,Pending
+TC_9,Property loan 11 years,2,500000,11,385000,,Pending
+TC_10,Home loan 3 years,1,50000,3,12000,,Pending
+TC_11,Home loan 8 years,1,75000,8,39000,,Pending
+TC_12,Home loan 9 years,1,125000,9,73125,,Pending
+TC_13,Home loan 11 years,1,350000,11,211750,,Pending
+TC_14,Home loan 12 years,1,600000,12,396000,,Pending
+TC_15,Property loan 4 years,2,80000,4,38400,,Pending
+TC_16,Property loan 6 years,2,99999,6,50999.47,,Pending
+TC_17,Property loan 7 years,2,200000,7,119000,,Pending
+TC_18,Property loan 10 years,2,450000,10,382500,,Pending
+TC_19,Property loan 15 years,2,600000,15,630000,,Pending
+TC_20,Invalid loan type,3,100000,5,-1,,Pending
+TC_21,Negative loan amount,1,-10000,5,-1,,Pending
+TC_22,Negative year duration,1,100000,-5,-1,,Pending
+TC_23,Unrealistic year duration,1,100000,50,-1,,Pending
+TC_24,Year duration zero,2,50000,0,-1,,Pending
+TC_25,Invalid loan type zero,0,100000,5,-1,,Pending

@@ -1,0 +1,5 @@
+Defect ID,Test Case ID,Description,Expected Output,Actual Output,Severity,Status
+D_1,TC_3,Home loan 6 years calculation issue,39000.00,,Major,Pass
+D_2,TC_20,Invalid loan type not handled,-1,,Critical,Pass
+D_3,TC_21,Negative loan amount not handled,-1,,Critical,Pass
+D_4,TC_22,Negative year duration not handled,-1,,Critical,Pass
