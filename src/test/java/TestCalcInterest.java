@@ -1,3 +1,5 @@
+//program to test the test cases and compare the expected output 
+//Question 1 - Task 2 and 3
 import com.cs341.CalcInterest;
 
 public class TestCalcInterest {
