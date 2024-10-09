@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalcInterestTest" time="0.178" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CalcInterestTest" time="0.15" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ryanr\AppData\Local\Temp\surefire16011432882992124864\surefirebooter-20241001103616842_3.jar C:\Users\ryanr\AppData\Local\Temp\surefire16011432882992124864 2024-10-01T10-36-16_331-jvmRun1 surefire-20241001103616842_1tmp surefire_0-20241001103616842_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ryanr\AppData\Local\Temp\surefire15012913230489447287\surefirebooter-20241009130445876_3.jar C:\Users\ryanr\AppData\Local\Temp\surefire15012913230489447287 2024-10-09T13-04-45_579-jvmRun1 surefire-20241009130445876_1tmp surefire_0-20241009130445876_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ryanr\OneDrive\Documents\GitHub\CS341-Assignment1\target\test-classes;C:\Users\ryanr\OneDrive\Documents\GitHub\CS341-Assignment1\target\classes;C:\Users\ryanr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\ryanr\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ryanr\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\ryanr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\ryanr\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\ryanr\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ryanr\AppData\Local\Temp\surefire16011432882992124864\surefirebooter-20241001103616842_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ryanr\AppData\Local\Temp\surefire15012913230489447287\surefirebooter-20241009130445876_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
@@ -57,20 +57,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testPropertyLoanCase_TC_PB1" classname="CalcInterestTest" time="0.069"/>
+  <testcase name="testPropertyLoanCase_TC_PB1" classname="CalcInterestTest" time="0.044"/>
   <testcase name="testPropertyLoanCase_TC_PB2" classname="CalcInterestTest" time="0.003"/>
   <testcase name="testPropertyLoanCase_TC_PB3" classname="CalcInterestTest" time="0.002"/>
-  <testcase name="testPropertyLoanCase_TC_PB4" classname="CalcInterestTest" time="0.001"/>
-  <testcase name="testPropertyLoanCase_TC_PB5" classname="CalcInterestTest" time="0.004"/>
-  <testcase name="testInvalidLoanTypeZero_TC_E6" classname="CalcInterestTest" time="0.001"/>
-  <testcase name="testNegativeYearLoan_TC_E3" classname="CalcInterestTest" time="0.002"/>
+  <testcase name="testPropertyLoanCase_TC_PB4" classname="CalcInterestTest" time="0.002"/>
+  <testcase name="testPropertyLoanCase_TC_PB5" classname="CalcInterestTest" time="0.003"/>
+  <testcase name="testInvalidLoanTypeZero_TC_E6" classname="CalcInterestTest" time="0.003"/>
+  <testcase name="testNegativeYearLoan_TC_E3" classname="CalcInterestTest" time="0.003"/>
   <testcase name="testUnrealisticYearLoan_TC_E4" classname="CalcInterestTest" time="0.002"/>
   <testcase name="testInvalidLoanType_TC_E1" classname="CalcInterestTest" time="0.002"/>
   <testcase name="testHomeLoanCase_TC_HB1" classname="CalcInterestTest" time="0.002"/>
-  <testcase name="testHomeLoanCase_TC_HB2" classname="CalcInterestTest" time="0.002"/>
+  <testcase name="testHomeLoanCase_TC_HB2" classname="CalcInterestTest" time="0.001"/>
   <testcase name="testHomeLoanCase_TC_HB3" classname="CalcInterestTest" time="0.001"/>
-  <testcase name="testHomeLoanCase_TC_HB4" classname="CalcInterestTest" time="0.002"/>
-  <testcase name="testHomeLoanCase_TC_HB5" classname="CalcInterestTest" time="0.002"/>
-  <testcase name="testYearLoanZero_TC_E5" classname="CalcInterestTest" time="0.001"/>
-  <testcase name="testNegativeLoanAmount_TC_E2" classname="CalcInterestTest" time="0.002"/>
+  <testcase name="testHomeLoanCase_TC_HB4" classname="CalcInterestTest" time="0.001"/>
+  <testcase name="testHomeLoanCase_TC_HB5" classname="CalcInterestTest" time="0.001"/>
+  <testcase name="testYearLoanZero_TC_E5" classname="CalcInterestTest" time="0.002"/>
+  <testcase name="testNegativeLoanAmount_TC_E2" classname="CalcInterestTest" time="0.001"/>
 </testsuite>
